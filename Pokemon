@@ -1,0 +1,77 @@
+All
+
+
+
+Practical 1: GIT Installation
+
+
+git --version
+git config --global user.name "Aditya"
+git config --global user.email "aditya@gmail.com"
+git config --list
+
+
+Practical 2:  Create a Repository (GitHub)
+
+
+mkdir pokemon
+cd pokemon
+git clone https://github.com/username/pokemon.git
+cd pokemon
+echo Hello > hello.txt
+git status
+git add .
+git commit -m "first commit"
+git push origin main
+
+
+
+Practical 3: Implement Branch, Fork and Merge
+
+git clone https://github.com/username/pokemon.git
+cd pokemon
+git checkout -b dev
+git branch
+echo branch work > branch.txt
+git add .
+git commit -m "branch changes"
+git push origin dev
+
+
+
+Practical 5 Create a Repository (Gitlab)
+
+git clone https://gitlab.com/adityasawant8516-group/adityasawant8516-pokemon.git
+cd pokemon
+echo Hello GitLab > hello.txt
+git status
+git add .
+git commit -m "GitLab commit"
+git push origin main
+dir
+
+
+
+Practical 6
+
+
+cd pokemon
+git fetch
+git merge origin/main
+dir
+
+dont forget to add file
+
+
+
+Practical 9
+
+docker –version
+docker pull nginx
+docker images
+docker run
+docker ps
+docker stop
+docker start
+docker rm
+docker rmi
